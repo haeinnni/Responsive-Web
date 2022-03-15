@@ -38,50 +38,52 @@
     <!-- About -->
     <section id="about" class="section">
         <!-- 페이지 내 공통된 요소들. class(x) -->
-        <h1>About me</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum officia architecto recusandae perferendis veritatis deserunt, tenetur nesciunt sunt et, nulla aliquid, non eosmaiores error nisi provident dolorum minima facere quam magni.
-        </p>
-        <div class="about__majors">
-            <div class="majors">
-                <div class="major__icon">
-                    <i class="ri-html5-line"></i>
+        <section class="section__container">
+            <h1>About me</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum officia architecto recusandae perferendis veritatis deserunt, tenetur nesciunt sunt et, nulla aliquid, non eosmaiores error nisi provident dolorum minima facere quam magni.
+            </p>
+            <div class="about__majors">
+                <div class="majors">
+                    <div class="major__icon">
+                        <i class="ri-html5-line"></i>
+                    </div>
+                    <h2 class="major__title">Front-end</h2>
+                    <div class="major__description">HTML, CSS, JavaScript, TypeScript,
+                        <br/>React, Vue, Web APIs</div>
                 </div>
-                <h2 class="major__title">Front-end</h2>
-                <div class="major__description">HTML, CSS, JavaScript, TypeScript,
-                    <br/>React, Vue, Web APIs</div>
-            </div>
-            <div class="majors">
-                <div class="major__icon">
-                    <i class="ri-smartphone-line"></i>
+                <div class="majors">
+                    <div class="major__icon">
+                        <i class="ri-smartphone-line"></i>
+                    </div>
+                    <h2 class="major__title">Mobile</h2>
+                    <div class="major__description">Android, iOS, java, Flutter</div>
                 </div>
-                <h2 class="major__title">Mobile</h2>
-                <div class="major__description">Android, iOS, java, Flutter</div>
-            </div>
-            <div class="majors">
-                <div class="major__icon">
-                    <i class="ri-server-fill"></i>
-                </div>
-                <h2 class="major__title">Back-end</h2>
-                <div class="major__description">Nodejs, JavaScript, REST APIs, java</div>
-            </div>
-        </div>
-        <div class="about__jobs">
-            <div class="job">
-                <img src="imgs/logo-ajou.png" alt="ajou university" class="job__logo">
-                <div class="job__description">
-                    <p class="job__name">Ajou university math</p>
-                    <p class="job__peroid">2016.03-2020.02</p>
+                <div class="majors">
+                    <div class="major__icon">
+                        <i class="ri-server-fill"></i>
+                    </div>
+                    <h2 class="major__title">Back-end</h2>
+                    <div class="major__description">Nodejs, JavaScript, REST APIs, java</div>
                 </div>
             </div>
-            <div class="job">
-                <img src="imgs/ghost.png" alt="ghostkitchen" class="job__logo">
-                <div class="job_description">
-                    <p class="job__name">Ghost Kitchen</p>
-                    <p class="job__peroid">2020.01-2021.07</p>
+            <div class="about__jobs">
+                <div class="job">
+                    <img src="imgs/logo-ajou.png" alt="ajou university" class="job__logo">
+                    <div class="job__description">
+                        <p class="job__name">Ajou university math</p>
+                        <p class="job__peroid">2016.03-2020.02</p>
+                    </div>
+                </div>
+                <div class="job">
+                    <img src="imgs/ghost.png" alt="ghostkitchen" class="job__logo">
+                    <div class="job_description">
+                        <p class="job__name">Ghost Kitchen</p>
+                        <p class="job__peroid">2020.01-2021.07</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </section>
     <!-- Skills -->
     <section id="skills" class="section">
@@ -149,65 +151,69 @@
     </section>
     <!-- Work -->
     <section id="work" class="section">
-        <h1>My work</h1>
-        <h3>Projects</h3>
-        <div class="work__categories">
-            <button class="category__btn active">All<span class="category__count">8</span></span></button>
-            <button class="category__btn">Front-end<span class="category__count">4</span></button>
-            <button class="category__btn">Back-end<span class="category__count">2</span></button>
-            <button class="category__btn">Mobile<span class="category__count">2</span></button>
-        </div>
-        <div class="work__projects">
-            <a href="#" class="project" target="blank">
-            <img src="imgs/youtube.png" alt="youtube" class="project__img">
-            <div class="project__description">
-                <h3>Youtube Site</h3>
-                <span>Clone coding with HTML and CSS</span>
+        <div class="section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn active">All<span class="category__count">8</span></span></button>
+                <button class="category__btn">Front-end<span class="category__count">4</span></button>
+                <button class="category__btn">Back-end<span class="category__count">2</span></button>
+                <button class="category__btn">Mobile<span class="category__count">2</span></button>
             </div>
-            </a>
-            <a href="#" class="project" target="blank">
+            <div class="work__projects">
+                <a href="#" class="project" target="blank">
                 <img src="imgs/youtube.png" alt="youtube" class="project__img">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
                     <span>Clone coding with HTML and CSS</span>
                 </div>
-            </a>
-            <a href="#" class="project" target="blank">
-                <img src="imgs/youtube.png" alt="youtube" class="project__img">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
-            </a>
-            <a href="#" class="project" target="blank">
-                <img src="imgs/youtube.png" alt="youtube" class="project__img">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
-            </a>
+                </a>
+                <a href="#" class="project" target="blank">
+                    <img src="imgs/youtube.png" alt="youtube" class="project__img">
+                    <div class="project__description">
+                        <h3>Youtube Site</h3>
+                        <span>Clone coding with HTML and CSS</span>
+                    </div>
+                </a>
+                <a href="#" class="project" target="blank">
+                    <img src="imgs/youtube.png" alt="youtube" class="project__img">
+                    <div class="project__description">
+                        <h3>Youtube Site</h3>
+                        <span>Clone coding with HTML and CSS</span>
+                    </div>
+                </a>
+                <a href="#" class="project" target="blank">
+                    <img src="imgs/youtube.png" alt="youtube" class="project__img">
+                    <div class="project__description">
+                        <h3>Youtube Site</h3>
+                        <span>Clone coding with HTML and CSS</span>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
     <!-- Testimonials -->
     <section id="testimonials" class="section">
-        <h1>Testimonials</h1>
-        <h3>See ehat they say about me</h3>
-        <div class="testimonials">
-            <div class="testimonial">
-                <img src="imgs/people.png" alt="People" class="testimonial__avartar">
-                <div class="testimonial__speech-bubble">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, modi optio culpa incidunt illo, ullam fuga cumque nihil minus laboriosam veritatis nemo hic unde officia voluptatibus, obcaecati eius vero. Veniam nihil sequi velit magnam incidunt, voluptas illum debitis modi. Voluptatem maiores porro ducimus harum! Voluptatibus commodi illum optio doloremque beatae.
-                    </p>
-                    <p class="name"><a href="#">Ellie</a> / Samsung</p>
+        <div class="section__container">
+            <h1>Testimonials</h1>
+            <h3>See ehat they say about me</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="imgs/people.png" alt="People" class="testimonial__avartar">
+                    <div class="testimonial__speech-bubble">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, modi optio culpa incidunt illo, ullam fuga cumque nihil minus laboriosam veritatis nemo hic unde officia voluptatibus, obcaecati eius vero. Veniam nihil sequi velit magnam incidunt, voluptas illum debitis modi. Voluptatem maiores porro ducimus harum! Voluptatibus commodi illum optio doloremque beatae.
+                        </p>
+                        <p class="name"><a href="#">Ellie</a> / Samsung</p>
+                    </div>
                 </div>
-            </div>
-            <div class="testimonial">
-                <div class="testimonial__speech-bubble">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, modi optio culpa incidunt illo, ullam fuga cumque nihil minus laboriosam veritatis nemo hic unde officia voluptatibus, obcaecati eius vero. Veniam nihil sequi velit magnam incidunt, voluptas illum debitis modi. Voluptatem maiores porro ducimus harum! Voluptatibus commodi illum optio doloremque beatae.
-                    </p>
-                    <p class="name"><a href="#">Ellie</a> / Samsung</p>
+                <div class="testimonial">
+                    <div class="testimonial__speech-bubble">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, modi optio culpa incidunt illo, ullam fuga cumque nihil minus laboriosam veritatis nemo hic unde officia voluptatibus, obcaecati eius vero. Veniam nihil sequi velit magnam incidunt, voluptas illum debitis modi. Voluptatem maiores porro ducimus harum! Voluptatibus commodi illum optio doloremque beatae.
+                        </p>
+                        <p class="name"><a href="#">Ellie</a> / Samsung</p>
+                    </div>
+                    <img src="imgs/people.png" alt="People" class="testimonial__avartar">
                 </div>
-                <img src="imgs/people.png" alt="People" class="testimonial__avartar">
             </div>
         </div>
     </section>
