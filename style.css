@@ -89,12 +89,21 @@ p {
 
 /* Navbar */
 #navbar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--color-pink);
+  /* background: transparent; */
+  background-color: var(--color-pink);
   color: var(--color-white);
   padding: 16px;
+  transition: all var(--animation-duration) ease-in-out;
+}
+
+#navbar.navbar--dark {
+  background-color: var(--color-dark-pink);
+  padding: 8px;
 }
 
 .navbar__menu {
@@ -115,7 +124,7 @@ p {
   border-radius: var(--size-border-radius);
 }
 
-.navbar__menu__items:active {
+.navbar__menu__items.active {
   border: 1px solid var(--color-white);
 }
 
