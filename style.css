@@ -138,7 +138,7 @@ p {
 
 .navbar__toggle-btn {
   position: absolute;
-  top: 32px;
+  top: 22px;
   right: 32px;
   font-size: 24px;
   color: var(--color-white);
@@ -398,7 +398,7 @@ p {
 }
 
 .project__description h3 {
-  color: var(--color-white);
+  color: var(--color-orange);
 }
 
 .project__description h3:after {
@@ -406,9 +406,9 @@ p {
   display: block;
   position: relative;
   left: 50%;
-  margin-left: -12px;
+  transform: translateX(-50%);
   margin-top: 8px;
-  width: 25px;
+  width: 50px;
   height: 2px;
   background-color: var(--color-white);
 }
@@ -520,6 +520,10 @@ p {
     text-align: center;
     width: 100%;
     display: none;
+  }
+
+  .navbar__menu.open {
+    display: block;
   }
 
   .about__majors {
