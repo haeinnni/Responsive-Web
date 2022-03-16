@@ -147,6 +147,7 @@ p {
   background: url(imgs/home-background.png) center/cover no-repeat;
   padding: 40px;
   text-align: center;
+  padding-top: 150px;
 }
 
 .home__avatar {
