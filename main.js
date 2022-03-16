@@ -64,6 +64,15 @@ workBtnContainer.addEventListener('click', (event) => {
     if(filter == null) {
         return;
     }
+
+    //Remove selection from the previous item and select the new one
+const active = document.querySelector('.category__btn.selected');
+active.classList.remove('selected');
+const target = 
+    event.target.nodeName === 'BUTTON' ? event.target : event.target.parentNode;
+target.classList.add('selected');
+
+
     projectContainer.classList.add('anim-out');
     setTimeout(() => {
         projects.forEach((project) => {
@@ -75,7 +84,7 @@ workBtnContainer.addEventListener('click', (event) => {
         });
         projectContainer.classList.remove('anim-out');
     }, 300);
-    
+
     /* forEach()는 아래 코드와 동일 
     for(let project of project) {
     }
