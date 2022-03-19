@@ -104,7 +104,6 @@ p {
 
 #navbar.navbar--dark {
   background-color: var(--color-dark-pink);
-  padding: 13px;
 }
 
 .navbar__menu {
@@ -126,9 +125,9 @@ p {
   border: 1px solid transparent;
 }
 
-/* .navbar__menu__items.active {
+.navbar__menu__items.active {
   border: 1px solid var(--color-white);
-} */
+}
 
 .navbar__menu__items:hover {
   border: 1px solid white;
@@ -183,7 +182,7 @@ p {
 
 /* Section Common */
 .section {
-  padding: 16px;
+  padding: 80px 16px;
   text-align: center;
 }
 
